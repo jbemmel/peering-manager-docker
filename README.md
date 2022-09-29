@@ -1,4 +1,4 @@
-# Docker - Peering Manager
+# Docker - Peering Manager (with SR OS Napalm driver included)
 
 This repository contains the components needed to build Peering Manager as a
 Docker container. It provides everything that is needed to run the whole
