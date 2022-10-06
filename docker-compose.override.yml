@@ -1,0 +1,11 @@
+---
+networks:
+  default:
+    driver: bridge
+    external: true
+    name: netlab_mgmt
+
+services:
+  peering-manager:
+    ports:
+      - 8000:8080
