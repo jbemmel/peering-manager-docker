@@ -4,6 +4,14 @@ This repository contains the components needed to build Peering Manager as a
 Docker container. It provides everything that is needed to run the whole
 application stack.
 
+JvB: It is configured to deploy a [custom branch of Peering Manager with Nokia SR OS support](https://github.com/jbemmel/peering-manager/tree/add-nokia-sros-support).
+The application attaches to a Netlab management network, as (e.g.) created by [this topology](https://github.com/jbemmel/netsim-examples/tree/master/BGP/IXP-Peering)
+```
+./build.sh add-nokia-sros-support
+docker-compose up
+```
+
+
 ## Dependencies
 
 This project relies only on *Docker* and *docker-compose*. Make sure to use a
