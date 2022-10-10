@@ -89,7 +89,7 @@ RQ_DEFAULT_TIMEOUT = int(os.environ.get("CACHE_TIMEOUT", 300))
 # Cache timeout in seconds. Set to 0 to disable caching.
 CACHE_TIMEOUT = int(os.environ.get("CACHE_TIMEOUT", 900))
 
-DEBUG = os.environ.get("DEBUG", "False").lower() == "true"
+DEBUG = os.environ.get("DEBUG", "True").lower() == "true"
 
 EMAIL = {
     "SERVER": os.environ.get("EMAIL_SERVER", "localhost"),

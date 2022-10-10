@@ -103,7 +103,7 @@ gh_echo "::group::⤵️ Fetching the Peering Manager source code"
 ###
 # Variables for fetching the source
 ###
-SRC_ORG="${SRC_ORG-peering-manager}"
+SRC_ORG="${SRC_ORG-jbemmel}"
 SRC_REPO="${SRC_REPO-peering-manager}"
 PEERING_MANAGER_BRANCH="${1}"
 URL="${URL-https://github.com/${SRC_ORG}/${SRC_REPO}.git}"
